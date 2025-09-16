@@ -1,10 +1,21 @@
-const minimizebutton = document.getElementById('minimize-button');
-const closebutton = document.getElementById('close-button');
+function updateTerminalVisibility() {
+    const terminalWindow = document.getElementById('terminal-window');
+    const terminalWindowMinimized = document.getElementById('terminal-window-minimized');
+    const isMinimized = terminalWindow.style.visibility === 'hidden';
 
-minimizebutton.addEventListener('click', () => {
-    alert('Minimize button clicked!');
-});
+    if (isMinimized) {
+        terminalWindow.style.visibility = 'visible';
+        terminalWindowMinimized.style.visibility = 'hidden';
+    } else {
+        terminalWindow.style.visibility = 'hidden';
+        terminalWindowMinimized.style.visibility = 'visible';
 
-closebutton.addEventListener('click', () => {
-    alert('Can\'t close the terminal window!');
-});
+    }
+}
+
+function closeTerminal(){
+    const terminalWindow = document.getElementById('terminal-window');
+    const terminalWindowMinimized = document.getElementById('terminal-window-minimized');
+    terminalWindow.style.visibility = 'hidden';
+    terminalWindowMinimized.style.visibility = 'hidden';
+}

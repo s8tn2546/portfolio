@@ -11,13 +11,18 @@
 </head>
 <body>
     
+    <div id="terminal-window-minimized">
+        <div id="minimize-button" onclick="updateTerminalVisibility()"></div>
+        <div id="close-button" onclick="closeTerminal()"></div>
+    </div>
+
     <div id="terminal-window">
         <div id="terminal-navbar">
             <div id="name">
                 <p>Ahmed Raza Khan</p>
             </div>
-            <div id="minimize-button"></div>
-            <div id="close-button"></div>
+            <div id="minimize-button" onclick="updateTerminalVisibility()"></div>
+            <div id="close-button" onclick="closeTerminal()"></div>
         </div>
     </div>
 

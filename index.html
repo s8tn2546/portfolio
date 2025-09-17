@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <div id="terminal-window-minimized">
-        <div id="minimize-button" onclick="updateTerminalVisibility()"></div>
-        <div id="close-button" onclick="closeTerminal()"></div>
+
+    <div id="window">
+        <div id="day"></div>
+        <div id="time"></div>
+        <div id="date"></div>
+        <div id="terminal-icon" onclick="openTerminal()"><img src="terminal.png" alt="Terminal Icon"></div>
     </div>
 
     <div id="terminal-window">

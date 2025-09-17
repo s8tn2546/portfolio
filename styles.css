@@ -30,6 +30,51 @@ body{
     margin: 0;
 }
 
+#window{
+    position: absolute;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+    bottom: 0;
+    margin: auto;
+}
+
+#day, #date, #time{
+    text-align: center;
+    font-family: audiowide, sans-serif;
+}
+
+#day{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+#time{
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+#date{
+    font-size: 1.5rem;
+}
+
+#terminal-icon{
+    position: absolute;
+    bottom: 2rem;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#terminal-icon:hover{
+    transform: translate(0, -5px) scale(1.1);
+    transition: transform 0.3s;
+}
+
 #terminal-window{
     visibility: hidden;
     backdrop-filter: blur(10px);
@@ -86,19 +131,6 @@ body{
     cursor: pointer;
 }
 
-#terminal-window-minimized{
-    visibility: visible;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 25px;
-    background: var(--secondary-color);
-    height: 5vh;
-    width: 40vw;
-    margin-bottom: -5rem;
-}
-
 #terminal video{
     object-fit: fill;
 }
@@ -114,7 +146,25 @@ body{
         margin-right: 0.5rem;
     }
 
-    #terminal-window-minimized {
-        width: 80vw;
+    #window{
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    #day{
+        font-size: 2.5rem;
+    }
+    #time{
+        font-size: 1.2rem;
+        margin-top: -0.5rem;
+    }
+    #date{
+        font-size: 0.8rem;
+    }
+
+    #terminal-icon{
+        height: 40px;
+        width: 40px;
+        bottom: 5rem;
     }
 }

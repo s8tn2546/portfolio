@@ -1,7 +1,7 @@
 :root{
     --primary-color: #1e1e1e;
     --secondary-color: #E5E4E2;
-    --accent-color: #C41E3A;
+    --accent-color: #FF0000;
 }
 
 *{
@@ -10,6 +10,7 @@
     width: 100%;
     box-sizing: border-box;
     font-family: 'Pixelify Sans', sans-serif;
+    
 }
 
 body{
@@ -28,6 +29,7 @@ body{
     background-attachment: fixed;
     bottom: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 #window{
@@ -46,6 +48,7 @@ body{
 #day, #date, #time{
     text-align: center;
     font-family: audiowide, sans-serif;
+    user-select: none;
 }
 
 #day{
@@ -76,9 +79,10 @@ body{
 }
 
 #terminal-window{
+    position: absolute;
     visibility: hidden;
     backdrop-filter: blur(10px);
-    border: var(--secondary-color) 1px solid;
+    border: var(--primary-color) 1px solid;
     border-radius: 25px;
     margin: 1rem;
     height: 80vh;
@@ -90,10 +94,11 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     border-radius: 20px 20px 0 0;
     height: 5vh;
     width: 100%;
+    user-select: none;
 }
 
 #name{
@@ -101,9 +106,8 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    font-weight: 500;
-    font-size: 1.2rem;
-    color: var(--primary-color);
+    font-size: 1.5rem;
+    color: var(--secondary-color);
     margin-left: 1rem;
 }
 
@@ -131,9 +135,42 @@ body{
     cursor: pointer;
 }
 
-#terminal video{
-    object-fit: fill;
+#terminal-body{
+    color: var(--secondary-color);
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Pixelify Mono', monospace;
+    overflow-y: auto;
+    height: 75vh;
+    width: 80vw;
+    overflow: scroll;
+    scrollbar-width: none;
 }
+
+#terminal-input{
+    background: transparent;
+    border: none;
+    width: 80%;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    outline: none;
+    color:#adadad;
+}
+
+#input, #prompt{
+    color:#adadad;
+}
+
+.highlighter{
+    color: var(--accent-color);
+}
+
+a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+
 
 @media (max-width: 768px) {
     #name{

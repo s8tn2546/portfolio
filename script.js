@@ -80,29 +80,32 @@ const commands = {
     - <span class="highlighter">skills</span> → My tech stack<br>
     - <span class="highlighter">projects</span> → Featured projects<br>
     - <span class="highlighter">contact</span> → How to reach me<br>
-    - <span class="highlighter">clear</span> → Clear the terminal<br>
     - <span class="highlighter">resume</span> → Download my CV<br>
     - <span class="highlighter">socials</span> → Link to my socials.<br>
-    - <span class="highlighter">s8tn</span> → Easter egg
+    - <span class="highlighter">s8tn</span> → Easter egg<br>
+    - <span class="highlighter">clear</span> → Clear the terminal
   `,
 
   about: `
-    <img src="raza.jpeg" alt="Profile Picture" style="width:100px; height:100px; border-radius:50%; margin-bottom:10px;"><br>
-    Hi, I’m <span class="highlighter">Ahmed Raza Khan</span><br>
-    A passionate <span class="highlighter">Developer</span> who loves building creative,
-    impactful digital solutions with clean and minimal design.
+    <img src="raza.jpeg" alt="Profile Picture" style="width:100px; height:100px; border-radius:50%;"><br>
+    Hi, I’m <span class="highlighter">Ahmed Raza Khan</span> — a 2nd-year B.Tech Computer Science student a passionate <span class="highlighter">Developer</span> who loves building creative, impactful digital solutions with clean and minimal design.
+    I enjoy exploring different technologies and have worked with languages like <span class="highlighter">JavaScript, Python, and Dart</span> to create projects ranging from web applications to mobile apps.
+    My biggest strength is that <span class="highlighter">I love learning and trying things out</span> — whether it’s debugging an error at 2 AM, learning a new framework from scratch, or solving a problem through logic and code.
+    Outside of coding, I’m passionate about <span class="highlighter">design, psychology, and experimenting with unique ways to present ideas (like this terminal-styled portfolio)</span>.
+    I may not know everything yet, but I learn fast, stay consistent, and bring genuine enthusiasm to any team I’m a part of.
+    I'm currently seeking an opportunity where I can contribute my skills, gain real-world experience, and grow into a well-rounded developer.
   `,
 
   skills: `
-    <span class="highlighter">Languages:</span> JavaScript, Python, Dart, C++<br>
+    <span class="highlighter">Languages:</span><br>Proficient in → JavaScript, Python, Dart<br>Familiar with → C, C++, Java<br>
     <span class="highlighter">Frontend:</span> HTML, CSS, Tailwind, React<br>
     <span class="highlighter">Mobile:</span> Flutter (Android/iOS)<br>
     <span class="highlighter">Backend:</span> Firebase, Node.js, Express.js<br>
-    <span class="highlighter">Other:</span> Git/GitHub, UI/UX design
+    <span class="highlighter">Other:</span> Debugging & Problem Diagnosis, Git/GitHub, UI/UX design, Hosting & Deployment<br>
+    <span class="highlighter">Non-Technical Skills:</span> Communication, Teamwork, Adaptability, Problem Solving & Logical Thinking, Creativity
   `,
 
   projects: `
-    <span class="highlighter">Notifyre</span> → Smart notification manager app<br>
     <span class="highlighter">Aastha</span> → Hackathon project detecting crop diseases<br>
     <span class="highlighter">Agency Site</span> → Purple-themed portfolio for Dzyn Buddy<br>
     <span class="highlighter">ICE Restaurant</span> → Custom website for a restaurant in Odisha<br>
@@ -111,7 +114,7 @@ const commands = {
   contact: `
     <span class="highlighter">Email:</span> prof.ahmedrazakhan@gmail.com<br>
     <span class="highlighter">Phone:</span> +91-9348841887<br>
-    <span class="highlighter">Location:</span> India
+    <span class="highlighter">Address:</span> Cuttack, Odisha, India
   `,
 
   socials: `
@@ -126,7 +129,7 @@ const commands = {
 
   s8tn: `
     <span class="highlighter">Access granted ✅</span><br>
-    <span class="highlighter">Secret:</span> <a href="">@yourid</a>
+    <span class="highlighter">Secret:</span> <a href="">Coming Soon.....</a>
   `,
 
   clear: 'clear'

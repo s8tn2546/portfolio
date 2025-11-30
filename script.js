@@ -76,13 +76,11 @@ document.addEventListener("mouseup", function(){
 const commands = {
     help: `
     Supported commands:<br>
-    - <span class="highlighter">about</span> → Learn who I am<br>
+    - <span class="highlighter">about</span> → Learn about me<br>
     - <span class="highlighter">skills</span> → My tech stack<br>
     - <span class="highlighter">projects</span> → Featured projects<br>
     - <span class="highlighter">contact</span> → How to reach me<br>
-    - <span class="highlighter">resume</span> → Download my CV<br>
     - <span class="highlighter">socials</span> → Link to my socials.<br>
-    - <span class="highlighter">s8tn</span> → Easter egg<br>
     - <span class="highlighter">clear</span> → Clear the terminal
   `,
 
@@ -107,29 +105,21 @@ const commands = {
 
   projects: `
     <span class="highlighter">Aastha</span> → Hackathon project detecting crop diseases<br>
-    <span class="highlighter">Agency Site</span> → Purple-themed portfolio for Dzyn Buddy<br>
+    <span class="highlighter">Postra</span> → 2nd Runner Up Project in Psytech 2025<br>
     <span class="highlighter">ICE Restaurant</span> → Custom website for a restaurant in Odisha<br>
   `,
 
   contact: `
     <span class="highlighter">Email:</span> prof.ahmedrazakhan@gmail.com<br>
     <span class="highlighter">Phone:</span> +91-9348841887<br>
-    <span class="highlighter">Address:</span> Cuttack, Odisha, India
+    <span class="highlighter">Address:</span> Bhubaneswar, Odisha, India
   `,
 
   socials: `
-    <span class="highlighter">GitHub:</span> <a href="https://github.com/yourid" target="_blank">github.com/yourid</a><br>
-    <span class="highlighter">LinkedIn:</span> <a href="https://linkedin.com/in/yourid" target="_blank">linkedin.com/in/yourid</a><br>
-    <span class="highlighter">Twitter:</span> <a href="https://twitter.com/yourid" target="_blank">@yourid</a>
-  `,
-
-  resume: `
-    Download my <a href="resume.pdf" class="highlighter" target="_blank">Resume(PDF)</a>
-  `,
-
-  s8tn: `
-    <span class="highlighter">Access granted ✅</span><br>
-    <span class="highlighter">Secret:</span> <a href="">Coming Soon.....</a>
+    <span class="highlighter">GitHub:</span> <a href="https://github.com/s8tn2546" target="_blank">s8tn2546</a><br>
+    <span class="highlighter">LinkedIn:</span> <a href="https://www.linkedin.com/in/ahmed-razakhan/" target="_blank">Ahmed Raza Khan</a><br>
+    <span class="highlighter">Twitter:</span> <a href="https://x.com/s8tn2546" target="_blank">@s8tn2546</a><br>
+    <span class="highlighter">Instagram:</span> <a href="https://www.instagram.com/s8tn2546?igsh=MTIwd2Uyb2g0eDd4dw==" target="_blank">@s8tn2546</a>
   `,
 
   clear: 'clear'

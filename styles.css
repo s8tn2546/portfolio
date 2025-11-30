@@ -73,6 +73,12 @@ body{
     cursor: pointer;
 }
 
+#terminal-icon p{
+    margin-left: -12px;
+    text-align: center;
+    font-family: audiowide, sans-serif;
+}
+
 #terminal-icon:hover{
     transform: translate(0, -5px) scale(1.1);
     transition: transform 0.3s;
